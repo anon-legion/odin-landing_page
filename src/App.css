@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  height: 175vh;
+  padding-left: 230px;
+  padding-right: 230px;
+  /*border: 1px solid red;*/
+}
+
+.App-header {
+  background-color: #1F2937;
+  flex: 2.5 2.5 auto;
+  /*border: 1px solid red;*/
+  height: 29%;
+  padding-left: 210px;
+  padding-right: 210px;
+}
+
+.App-body {
+  background-color: white;
+  flex: 7 7 auto;
+  /*border: 1px solid red;*/
+  height: 71%;
+}
