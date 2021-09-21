@@ -27,7 +27,14 @@ function Content() {
                     </div>
                 </div>
             </div>
-            <div className="quote"></div>
+            <div className="quote">
+                <p>
+                    This is an inspiring quote, or a testimonial from a customer.
+                    Maybe it's just filling up space, or maybe people will actually read it.
+                    Who knows? All I know is that it looks nice.
+                </p>
+                <div>-Thor, God of Thunder</div>
+            </div>
             <div className="call-to-action"></div>
         </React.Fragment>
     )

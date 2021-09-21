@@ -58,3 +58,29 @@
     flex: 1 1 auto;
     height: 31%;
 }
+
+.quote {
+    background-color: #e5e7eb;
+    flex-direction: column;
+    padding: 0px 310px;
+    align-content: center;
+    justify-content: center;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.quote div {
+    display: flex;
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 24px;
+    justify-content: flex-end;
+}
