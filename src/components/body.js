@@ -35,7 +35,18 @@ function Content() {
                 </p>
                 <div>-Thor, God of Thunder</div>
             </div>
-            <div className="call-to-action"></div>
+            <div className="call-to-action">
+                <div className='call-to-action-container'>
+                    <div className='cta-content'>
+                        <div className='cta-content-text'>
+                            <p><h2>Call to action! It's time!</h2></p>
+                            <p>Sign up for our product by clicking that button right over there!</p>
+                        </div>
+                        <button>Sign up</button>
+                    </div>
+                </div>
+                <div className='copyright'>Copyright © The Odin Project 2021</div>
+            </div>
         </React.Fragment>
     )
 };
